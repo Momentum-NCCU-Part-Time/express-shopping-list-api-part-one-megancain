@@ -1,0 +1,9 @@
+GET http://localhost:3000/shoppinglists
+
+### POST http://localhost:3000/shoppinglists Content-Type: application/json
+
+{
+"title": "title?", "createdAt": "dayjs().unix()", "updatedAt": "2024-01-04T23:03:10.635Z"
+}
+
+### get http://localhost:3000/shoppinglists/id
